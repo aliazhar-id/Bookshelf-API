@@ -1,0 +1,39 @@
+{
+  "name": "Bookshelf-API",
+  "version": "1.0.0",
+  "description": "Submission bookshelf API Dicoding.",
+  "main": "server.js",
+  "scripts": {
+    "start-prod": "NODE_ENV=production node server.js",
+    "start-dev": "nodemon server.js",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliazhar-id/Bookshelf-API.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "API",
+    "Hapi",
+    "Dicoding",
+    "Submission",
+    "aliazhar"
+  ],
+  "author": "Muhammad Izham Ali Azhar",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "nodemon": "^2.0.9"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.5",
+    "nanoid": "^3.1.23"
+  },
+  "bugs": {
+    "url": "https://github.com/aliazhar-id/Bookshelf-API/issues"
+  },
+  "homepage": "https://github.com/aliazhar-id/Bookshelf-API#readme"
+}
