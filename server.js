@@ -1,6 +1,6 @@
 const Hapi = require('@hapi/hapi');
 const routes = require('./src/routes');
-  
+
 const init = async () => {
   const server = Hapi.server({
     port: 5000,
@@ -11,11 +11,11 @@ const init = async () => {
       },
     },
   });
- 	
+
   server.route(routes);
- 
+
   await server.start();
-  console.log(`Server Ready URL: ${server.info.uri}`);
+  console.log(`API Ready, URL: ${server.info.uri}`);
 };
- 
+
 init();

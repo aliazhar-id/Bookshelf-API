@@ -6,7 +6,7 @@
   "scripts": {
     "start-prod": "NODE_ENV=production node server.js",
     "start-dev": "nodemon server.js",
-    "lint": "eslint ./src"
+    "lint": "eslint ./server.js ./src"
   },
   "repository": {
     "type": "git",
